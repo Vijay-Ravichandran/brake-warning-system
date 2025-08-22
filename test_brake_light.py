@@ -21,5 +21,5 @@ class TestBrakeLight(unittest.TestCase):
         result = check_brake_fluid(101)
         self.assertEqual(result, "ERROR")
     
-if __name__ == "__main__":
-    unittest.main()
+# if __name__ == "__main__":
+    # unittest.main()
